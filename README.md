@@ -1,4 +1,4 @@
 # Omnifood
 HTML, CSS, JavaScript
 
-this website was written alongside the course "Advanced CSS and Sass: Flexbox, Grid, Animations and More" by Jonas Schmedtmann
+this website was written alongside the course "Build Responsive Real-World Websites with HTML and CSS" by Jonas Schmedtmann
