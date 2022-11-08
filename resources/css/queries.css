@@ -1,0 +1,124 @@
+/*Big tablet to 1200px (width smaller than the 1140px row*/
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    .plan-box ul li { font-size: 18px; }
+}
+    
+/*Small tablets to Big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width 80%;
+        margin-left: 10%;
+    }
+    .box ion-icon { font-size: 60px;}
+    .steps-box:first-child,
+    .steps-box:last-child { margin-top: 10px; }
+    
+    .work-steps { margin-bottom: 40px; }
+    .work-steps:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    .btn-app img {
+        height: 43px;
+        width: auto;
+    }
+    
+    .city {transform: scale(1.2)}    
+    
+    .boxes h3 { margin-left: -10px }
+    
+    .city-feature {
+        font-size: 16px;
+        width: 110%;
+        line-height: 150%;   
+        margin-left: -10px
+    }
+    
+    .city-feature ion-icon {
+    height: 18px;
+    padding-right: 10px;
+    }
+    
+    .section-testimonials h2 { margin-bottom: 10px; }
+    blockquote{
+        font-size: 90%;
+        margin-top: 20px;
+     }
+    cite { margin-top: 15px; }
+    .plan-box { width: 100%}
+    .plan-box ul{ 
+        font-size: 14px;
+        font-weight: 400;
+    }
+        .plan-box ul li { font-size: 16px; }
+    
+    .contact-form { width: 85% }
+    
+    footer { padding: 30px 10px; }
+    footer p { text-align: left; }
+    
+    
+
+/*Small phones to small tablets: from 480px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    .main-nav { display: none; }
+    .logo { 
+        margin-left: 30%;
+        margin-right: 35%;    
+        margin-top: 20%;
+        height: 200px;
+    }
+    
+    h1 { font-size: 150%; }
+    h2 { font-size: 125%;}
+    h2:after{ margin-top: 20px}
+  
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0; 
+    }
+    
+    .long-copy { width: 80%; }
+ 
+    .app-screen {
+        width: 60%;
+        margin-right: 20%;
+    }
+    
+.city {
+    margin-top: 60px;
+    margin-bottom: 35px;
+    }
+
+    .city-feature ion-icon { padding-left: 4%; }
+    
+    .section-cities h3 {
+    font-size: 110%;
+    margin-bottom: 10px;
+    }
+    
+    blockquote { margin-top: 50px; }
+
+
+    input[type=submit] {
+        margin-left: 30%;
+        width: 40%
+    }
+}
+/*Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+
+    
+}
